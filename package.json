@@ -1,0 +1,13 @@
+{
+  "name": "secure-assets-monorepo",
+  "private": true,
+  "workspaces": [
+    "apps/api",
+    "apps/web",
+    "services/ai"
+  ],
+  "scripts": {
+    "dev": "echo 'Run app-specific dev scripts'",
+    "install:all": "npm install --workspaces"
+  }
+}
